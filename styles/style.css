@@ -1,0 +1,105 @@
+/*<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">*/
+html {
+  font-size: 1.5em;
+  /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+  font-family: 'Roboto Condensed', sans-serif;
+  /* Este debe ser el resto del resultado que obtuviste de Google fonts */
+  background-color: #E5E5CB;
+  
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  background-color: #3C2A21;
+  font-family: 'Taviraj', serif;
+  flex-direction: column;
+  color: white;
+  width: 100%;
+}
+
+#titulo {
+  display: flex;
+  color: #D5CEA3;
+  justify-content: center;
+  font-family: 'Taviraj', serif;
+  font-size: 3em;
+  margin: auto .3em;
+  justify-content: center;
+  
+}
+a.button{
+  background-color: #8B4513;
+  border-radius: 10px;
+  padding: .2em;
+}
+
+header nav {
+  display: flex;
+  background-color: rgba(241, 221, 205, .2);
+  padding: .25em;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 0;
+}
+
+nav a{
+  padding: .25%;
+  color: #f1ddcd;
+  transition: background-color 0.3s ease-in-out;
+  text-decoration:none;
+}
+nav>a:hover{
+  color: #f2cfb3;
+  
+  
+}
+a:visited {
+  color: #441F01;
+  
+}
+
+a {
+  color: #3C2A21;
+}
+
+figure,
+div#libros,
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+article p {
+  background-color: #A88669;
+  border-radius: .5em;
+}
+
+fieldset {
+  background-image: url(../images/bg.png);
+  background-repeat: repeat;
+  background-size: cover;
+  margin: 5% 2% 15% 5%;
+  font-family: "sans-serif";
+}
+
+#enviar {
+  font-family: 'Taviraj', serif;
+  font-size: 1em;
+  background-color: #D2B48C;
+  border: none;
+  color: #FFFFFF;
+  padding: 2% 5%;
+  text-align: center;
+  text-decoration: none;
+  margin: 1%;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #441F01;
+}
+#enviar:hover{
+  background-color: #8B4513;
+  transform: scale(1.15);
+}

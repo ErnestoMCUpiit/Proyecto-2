@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40em;
+    background-image: url("../images/loginBg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(219, 210, 208, .8);
+    border-radius: 5px;
+    padding: 2em 10em;
+    height: 15em;
+    
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    padding: .6em;
+    margin: .6em 0;
+    border-radius: 5px;
+    border: none;
+    width: 120%;
+  }
+  
+  input[type="submit"] {
+    background-color: #A88669;
+    color: white;
+    margin: 2em;
+    padding: .8em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: rgba(212, 180, 152, .8);
+  }

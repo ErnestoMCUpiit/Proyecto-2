@@ -1,0 +1,25 @@
+#indice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em 1em;
+}
+#indice>div{
+    background-color: rgba(219, 205, 193, 1);
+    width: 15rem;
+    padding: 1em;
+    border-color: black;
+    border-style:double;
+    border-width: 1px;
+}
+div a{
+    display: flex;
+    text-decoration: none;
+    justify-content: flex-end;
+    position: relative;
+}
+div>a:hover{
+    color: #8B4513;
+    transform: scale(1.15);
+    padding-right: 2em;
+}

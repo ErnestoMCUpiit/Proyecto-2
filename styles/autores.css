@@ -1,0 +1,17 @@
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+.right{
+    display: flex;
+    background-color: rgba(140, 108, 95, .6);
+}
+.autor img{
+    height: 100%;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    color: #F9E4B7;
+    font-size: 2rem;
+}
