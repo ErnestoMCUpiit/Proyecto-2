@@ -103,3 +103,21 @@ fieldset {
   background-color: #8B4513;
   transform: scale(1.15);
 }
+#cancelar {
+  font-family: 'Taviraj', serif;
+  font-size: 1em;
+  background-color: #D2B48C;
+  border: none;
+  color: #FFFFFF;
+  padding: 2% 5%;
+  text-align: center;
+  text-decoration: none;
+  margin: 1%;
+  cursor: pointer;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #441F01;
+}
+#cancelar:hover{
+  background-color: #8B4513;
+  transform: scale(1.15);
+}

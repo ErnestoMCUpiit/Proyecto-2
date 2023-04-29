@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <header>
+      <nav>
+        <h1 id="titulo">
+          Bookie
+        </h1>
+        <a href="index.html">Inicio | </a>
+        <a href="autores/index.html">Autores | </a>
+        <a href="libros/index.html">Libros | </a>
+        <a href="contacto.html">Contacto | </a>
+        <a class="button" href="login.html">Inicia Sesión</a>
+      </nav>
+    </header>
+  </header>
+  <div class="contenedor">
+    <h2>Novedades</h2>
+    <form id="formulario">
+      <div class="libros">
+        <table>
+          <thead>
+            <tr>
+              <th>Título</th>
+              <th>Autor</th>
+              <th>Precio</th>
+              <th>Cantidad</th>
+              <th>Agregar</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-nombre="El Principito">
+              <td>El Principito</td>
+              <td>Antoine de Saint-Exupéry</td>
+              <td>$10.00</td>
+              <td><input type="number" min="0" name="cantidad-1" value="0" /></td>
+              <td><input type="checkbox" name="seleccion-1" /></td>
+            </tr>
+            <tr data-nombre="Cien años de soledad">
+              <td>Cien años de soledad</td>
+              <td>Gabriel García Márquez</td>
+              <td>$15.00</td>
+              <td><input type="number" min="0" name="cantidad-2" value="0" /></td>
+              <td><input type="checkbox" name="seleccion-2" /></td>
+            </tr>
+            <tr data-nombre="1984">
+              <td>1984</td>
+              <td>George Orwell</td>
+              <td>$12.00</td>
+              <td><input type="number" min="0" name="cantidad-3" value="0" /></td>
+              <td><input type="checkbox" name="seleccion-3" /></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="sidebar">
+        <h2>Carrito de Compra</h2>
+        <hr> <br>
+        <div class="items"></div>
+        <br>
+        <div class="Total">
+          <span>Total:</span>
+          <span class="total">$0.00</span>
+        </div>
+        <div class="bottombar">
+          <hr><br>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" name="terminos" required>
+              Acepto los términos y condiciones
+            </label>
+          </div>
+          <div class="botones">
+            <button class="enviar" type="submit">Enviar</button>
+            <button class="cancelar" type="button">Cancelar</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

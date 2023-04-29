@@ -1,0 +1,58 @@
+/*<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">*/
+html {
+    font-size: 1.5em;
+    /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
+    font-family: 'Roboto Condensed', sans-serif;
+    /* Este debe ser el resto del resultado que obtuviste de Google fonts */
+    background-color: #E5E5CB;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #3C2A21;
+    font-family: 'Taviraj', serif;
+    flex-direction: column;
+    color: white;
+    width: 100%;
+}
+header nav {
+    display: flex;
+    background-color: rgba(241, 221, 205, .2);
+    padding: .25em;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+}
+nav a{
+    padding: .25%;
+    color: #f1ddcd;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration:none;
+}
+nav>a:hover{
+    color: #f2cfb3;
+}
+li {
+    display: flex;
+    flex-direction: row;
+  }
+li div {
+    display: flex;
+    flex-direction: column;
+    float: right;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+li img {
+    margin-right: 10px; 
+    width: 30%;
+    height: auto; 
+}
+li div h4 {
+    margin: 0 0 5px 0; 
+}
+li div h5 {
+    margin: 0;
+}
+  
