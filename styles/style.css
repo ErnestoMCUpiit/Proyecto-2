@@ -109,3 +109,6 @@ fieldset {
   /* El tamaño de la fuente se ajusta al ancho de la página */
   color: #52411f;
 }
+.no-scroll {
+  overflow: hidden;
+}
