@@ -26,11 +26,14 @@ hr {
     display: flex;
     flex-direction: column;
     padding: 3em 2em;
+    left: 0;
+    right: 0;
 }
 
 #indice>div {
-    width: 30rem;
+    width: 100%;
     padding: 1em;
+    flex-grow: 1;
 }
 
 div a {
@@ -38,6 +41,7 @@ div a {
     text-decoration: none;
     justify-content: flex-end;
     position: relative;
+    font-size: 3vh;
 }
 
 div>a:hover {

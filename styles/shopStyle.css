@@ -51,10 +51,10 @@ h2 {
 }
 
 .contenedor {
-  max-width: 960px;
   margin: 2em;
   padding: 20px;
   float: inline-start;
+  overflow: scroll;
 }
 
 table {
@@ -75,22 +75,27 @@ th {
 .sidebar {
   position: fixed;
   top: 0;
-  right: -300px;
+  right: 0;
   height: 100%;
-  width: 300px;
+  width: 18em;  
   background-color: #fff;
   color: black;
+  padding: 1rem;
 }
 
 .bottombar {
   position: absolute;
   bottom: 0;
   padding-bottom: 3em;
+  width: 90%;
 }
 
 .botones {
   display: flex;
   flex-direction: column;
+}
+.botones button{
+  width:40vh;
 }
 
 .enviar {
@@ -123,7 +128,8 @@ footer {
 .sidebar h2 {
   margin-top: 0;
   padding: 20px;
-  color: black
+  color: black;
+  font-size: 5vh;
 }
 
 .sidebar ul {
@@ -161,6 +167,7 @@ footer {
 .sidebar input[type="submit"]:hover {
   background-color: saddlebrown;
 }
+
 
 @media screen and (max-width: 960px) {
   .sidebar {

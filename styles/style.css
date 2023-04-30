@@ -96,7 +96,7 @@ fieldset {
   cursor: pointer;
 }
 
-#reloj {
+#reloj{
   position: fixed;
   left: 1.5%;
   bottom: 1.5%;
@@ -105,15 +105,27 @@ fieldset {
   padding: .5em;
   border-radius: 1em;
   white-space: nowrap;
-  /* Evita que los span se rompan en varias líneas */
 }
-
+#hastaArriba{
+  position: fixed;
+  right: 1.5%;
+  bottom: 1.5%;
+  background-color: #c7b198;
+  font-family: 'Orbitron', sans-serif;
+  padding: .5em;
+  border-radius: 1em;
+  white-space: nowrap;
+}
 #reloj span {
   font-size: 1.5vw;
-  /* El tamaño de la fuente se ajusta al ancho de la página */
   color: #52411f;
 }
-
+#hastaArriba span{
+  font-size:2.5vw;
+  color: #52411f;
+  padding: .2em;
+  margin-right: .4em;
+}
 .no-scroll {
   overflow: hidden;
 }
