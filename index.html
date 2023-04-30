@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,11 +17,12 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
     <script src="scripts/reloj.js" defer></script>
-    <script src="scripts/popup.js"></script>
-
+    <!--<script src="scripts/popup.js"></script>-->
+    <script src="scripts/carrusel.js" defer></script>
     <title>Bookie</title>
     <link rel="shortcut icon" href="images/favicon4.ico" type="image/x-icon">
 </head>
+
 <body>
     <header>
         <nav>
@@ -35,12 +37,38 @@
         </nav>
     </header>
     <main>
+        <section class="carrusel">
+            <div id="bf" class="elementos">
+                <img id="bfimg" src="images\libros\1984.jpg" alt="">
+            </div>
+            <div id="actual" class="elementos">
+                <img id="actualimg" src="images\libros\cryptonomicon.jpg" alt="" srcset="">
+            </div>
+            <div id="af" class="elementos">
+                <img id="afimg" src="images\libros\cutulu.jpg" alt="" srcset="">
+            </div>
+        </section>
+        <br>
+        <br>
+        <section class="carrusel2">
+            <div id="bf2" class="elementos2">
+                <img id="bfimg" src="" alt="">
+            </div>
+            <div id="actual2" class="elementos2">
+                <img id="actualimg" src="" alt="" srcset="">
+            </div>
+            <div id="af2" class="elementos2">
+                <img id="afimg" src="" alt="" srcset="">
+            </div>
+        </section>
         <div id="reloj"></div>
-        <div id="modal" class="hidden">
+        <!--<div id="modal" class="hidden">
             <div id="popup" class="hidden">
                 <span class="material-symbols-outlined" id="cerrar">close</span>
-            </div>
+            </div>-->
+
         </div>
     </main>
 </body>
+
 </html>
