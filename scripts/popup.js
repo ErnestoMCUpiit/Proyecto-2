@@ -5,7 +5,7 @@ const popupList = [
     'images/popups/4.jpeg'
 ];
 window.addEventListener('load', function () {
-    document.body.classList.add('no-scroll');
+
 
     const btnCerrarPopup = document.getElementById('cerrar');
     const modalV = document.getElementById('modal');
