@@ -37,6 +37,7 @@ h2 {
 nav {
   display: flex;
   align-items: center;
+  padding-right: 3em;
 }
 
 a {
@@ -111,4 +112,11 @@ fieldset {
 }
 .no-scroll {
   overflow: hidden;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }

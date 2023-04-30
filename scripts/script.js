@@ -45,13 +45,12 @@ function updateTotal() {
             const nombre = input.parentElement.parentElement.dataset.nombre;
             total += price * quantity;
             const item = document.createElement('div');
-            item.textContent = `${nombre} x ${quantity} = $${(price * quantity).toFixed(2)}`;
+            item.textContent = `${quantity} = $${(price * quantity).toFixed(2)}`;
             itemsDiv.appendChild(item);
         }
     });
     totalSpan.textContent = `$${total.toFixed(2)}`;
 }
-
 
 checkboxes.forEach(checkbox => {
     checkbox.addEventListener('change', () => {
