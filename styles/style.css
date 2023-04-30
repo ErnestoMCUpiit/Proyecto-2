@@ -13,7 +13,9 @@ body {
   background-color: #f2f2f2;
   background-image: url(../images/back.jpg);
   background-size: cover;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   color: #fff;
 }
 
@@ -71,6 +73,7 @@ fieldset {
   margin: 5% 2% 15% 5%;
   padding-left: 2em;
 }
+
 #enviar {
   font-size: 1em;
   background-color: black;
@@ -110,9 +113,70 @@ fieldset {
   /* El tamaño de la fuente se ajusta al ancho de la página */
   color: #52411f;
 }
+
 .no-scroll {
   overflow: hidden;
 }
+
+.carrusel ,.carrusel2{
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes animateIn {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes animateOut {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.elementos{
+  
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.elementos img{
+  animation: animateIn 0.5s forwards;
+}
+.elementos2 img{
+  width: 10em;
+  animation: animateOut 0.5s forwards;
+}
+#actual{
+  width: 10em;
+  animation: animateIn 2s forwards;
+}
+#actual2{
+  animation: animateOut 2s forwards;
+}
+#actual img{
+  width: 150%;
+}
+#bf img{
+  width: 70%;
+}
+#af img{
+  width: 70%;
+  
+}
+
+
 
 footer {
   position: fixed;
