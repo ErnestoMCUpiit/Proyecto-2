@@ -3,15 +3,57 @@ main{
     flex-direction: column;
     margin: 1em;
 }
+.right section.dataAutor {
+    padding: .5em;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: rgba(140, 108, 95, .6);
+    justify-content: center;
+    
+}
 .right{
     display: flex;
-    background-color: rgba(140, 108, 95, .6);
+    width: 100%;
+    flex-grow: 1;
 }
+
 .autor img{
-    height: 100%;
+    border-radius: 2em;
+    border: .2em solid #a69872;
+    align-items: flex-end;
+    height: 8rem;
+    flex-grow: 3;
 }
 h2{
     font-family: 'Dancing Script', cursive;
-    color: #F9E4B7;
-    font-size: 2rem;
+    color: #52411f;
+    font-size: .9rem;
+    margin: .5em 4em;
+}
+.descripcion{
+    border-radius: 0;
+    border-left: .2em solid gray;
+    border-right: .2em solid gray;
+    font-size: 2vw;
+    text-align: center;
+    padding: 1em;
+}
+.libros{
+    display: flex;
+    flex-direction: column;
+    background-color: #a69872;
+}
+.libros h3{
+    font-family: 'Great Vibes', cursive;
+    font-size: 4vw;
+    padding: .5em;
+}
+.imagesLibros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagesLibros img{
+    width: 3em;
 }
