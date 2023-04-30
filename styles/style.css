@@ -1,5 +1,4 @@
-/*<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap" rel="stylesheet">*/
+
 html {
   font-size: 1.5em;
   /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
@@ -10,13 +9,9 @@ html {
 }
 
 header {
-  display: flex;
-  flex-direction: column;
   background-color: #3C2A21;
   font-family: 'Taviraj', serif;
-  flex-direction: column;
   color: white;
-  width: 100%;
 }
 
 #titulo {
@@ -41,7 +36,6 @@ header nav {
   padding: .25em;
   align-items: center;
   justify-content: space-around;
-  margin-top: 0;
 }
 
 nav a{
@@ -120,4 +114,20 @@ fieldset {
 #cancelar:hover{
   background-color: #8B4513;
   transform: scale(1.15);
+}
+
+#reloj {
+  position: fixed;
+  left: 1.5%;
+  bottom: 1.5%;
+  background-color: #c7b198;
+  font-family: 'Orbitron', sans-serif;
+  padding: .5em;
+  border-radius: 1em;
+  white-space: nowrap; /* Evita que los span se rompan en varias líneas */
+}
+
+#reloj span {
+  font-size: 1.5vw; /* El tamaño de la fuente se ajusta al ancho de la página */
+  color: #52411f;
 }
