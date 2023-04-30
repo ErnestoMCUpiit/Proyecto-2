@@ -1,61 +1,52 @@
-
 html {
   font-size: 1.5em;
   /* px quiere decir 'píxeles': el tamaño de la fuente base es ahora de 10 píxeles de altura */
   font-family: 'Roboto Condensed', sans-serif;
   /* Este debe ser el resto del resultado que obtuviste de Google fonts */
-  background-color: #E5E5CB;
-  
+
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f2f2f2;
+  background-image: url(../images/back.jpg);
+  background-size: cover;
+  background-repeat: repeat;
+  color: #fff;
 }
 
 header {
-  background-color: #3C2A21;
-  font-family: 'Taviraj', serif;
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  margin-left: 0.5em;
+  padding: 0.5em;
+  font-size: 3em;
+}
+
+h2 {
+  font-size: x-large;
+  padding-top: 1em;
+  padding-bottom: 2em;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  margin-left: 10px;
   color: white;
 }
 
 #titulo {
-  display: flex;
-  color: #D5CEA3;
-  justify-content: center;
-  font-family: 'Taviraj', serif;
-  font-size: 3em;
-  margin: auto .3em;
-  justify-content: center;
-  
-}
-a.button{
-  background-color: #8B4513;
-  border-radius: 10px;
-  padding: .2em;
-}
-
-header nav {
-  display: flex;
-  background-color: rgba(241, 221, 205, .2);
-  padding: .25em;
-  align-items: center;
-  justify-content: space-around;
-}
-
-nav a{
-  padding: .25%;
-  color: #f1ddcd;
-  transition: background-color 0.3s ease-in-out;
-  text-decoration:none;
-}
-nav>a:hover{
-  color: #f2cfb3;
-  
-  
-}
-a:visited {
-  color: #441F01;
-  
-}
-
-a {
-  color: #3C2A21;
+  margin-right: 10px;
 }
 
 figure,
@@ -72,48 +63,33 @@ article p {
 }
 
 fieldset {
-  background-image: url(../images/bg.png);
+  background-color: rgba(255, 255, 255, .8);
+  color: black;
   background-repeat: repeat;
   background-size: cover;
   margin: 5% 2% 15% 5%;
-  font-family: "sans-serif";
+  padding-left: 2em;
+}
+#enviar {
+  font-size: 1em;
+  background-color: black;
+  border: none;
+  color: #FFFFFF;
+  padding: 1em;
+  text-align: center;
+  margin: 1%;
+  cursor: pointer;
 }
 
-#enviar {
-  font-family: 'Taviraj', serif;
-  font-size: 1em;
-  background-color: #D2B48C;
-  border: none;
-  color: #FFFFFF;
-  padding: 2% 5%;
-  text-align: center;
-  text-decoration: none;
-  margin: 1%;
-  cursor: pointer;
-  border-radius: 4px;
-  box-shadow: 2px 2px 2px #441F01;
-}
-#enviar:hover{
-  background-color: #8B4513;
-  transform: scale(1.15);
-}
 #cancelar {
-  font-family: 'Taviraj', serif;
   font-size: 1em;
-  background-color: #D2B48C;
-  border: none;
-  color: #FFFFFF;
-  padding: 2% 5%;
+  background-color: white;
+  border-color: black;
+  color: black;
+  padding: 1em;
   text-align: center;
-  text-decoration: none;
   margin: 1%;
   cursor: pointer;
-  border-radius: 4px;
-  box-shadow: 2px 2px 2px #441F01;
-}
-#cancelar:hover{
-  background-color: #8B4513;
-  transform: scale(1.15);
 }
 
 #reloj {
@@ -124,10 +100,12 @@ fieldset {
   font-family: 'Orbitron', sans-serif;
   padding: .5em;
   border-radius: 1em;
-  white-space: nowrap; /* Evita que los span se rompan en varias líneas */
+  white-space: nowrap;
+  /* Evita que los span se rompan en varias líneas */
 }
 
 #reloj span {
-  font-size: 1.5vw; /* El tamaño de la fuente se ajusta al ancho de la página */
+  font-size: 1.5vw;
+  /* El tamaño de la fuente se ajusta al ancho de la página */
   color: #52411f;
 }

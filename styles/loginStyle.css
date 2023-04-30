@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 40em;
-    background-image: url("../images/loginBg.jpg");
+    background-image: url("../images/back.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(219, 210, 208, .8);
+    background-color: rgba(255, 255, 255, .8);
     border-radius: 5px;
     padding: 2em 10em;
     height: 15em;
@@ -32,7 +32,6 @@ body {
   
   h2 {
     margin-bottom: 20px;
-    font-family: 'Playfair Display', serif;
     font-size: 1.5em;
   }
   
@@ -50,7 +49,7 @@ body {
   }
   
   input[type="submit"] {
-    background-color: #A88669;
+    background-color: black;
     color: white;
     margin: 2em;
     padding: .8em;
