@@ -17,7 +17,8 @@ window.addEventListener('load', function () {
     const popupImgUrl = popupList[randomIndex];
 
     //link.href='https://youtu.be/okL-GNeRSus';
-    link.href='https://pnrtscr.com/fep8be';
+    //link.href='https://pnrtscr.com/fep8be';
+    link.href='https://cataas.com/cat/says/Huelum';
     link.target = '_blank';
     modalImg.src = popupImgUrl;
     link.appendChild(modalImg);
