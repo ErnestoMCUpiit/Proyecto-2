@@ -1,0 +1,18 @@
+{{#each books}}
+<article>
+    <section>
+                <h2>
+                    {{titulo}}
+                </h2>
+                <figure>
+                    <img src="data:image;base64, {{portada}}">
+                </figure>
+                Autor: {{autor}} <br>
+                Año: {{year}}
+            </section>
+            <br>
+            <p>
+                {{reseña}}
+            </p>
+</article>
+{{/each}}

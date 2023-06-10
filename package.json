@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-2",
+  "version": "1.0.0",
+  "description": "API que permite poner reseñas en los libros",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Naomi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "express-myconnection": "^1.0.4",
+    "multiparty": "^4.2.3",
+    "mysql2": "^3.3.3"
+  }
+}
